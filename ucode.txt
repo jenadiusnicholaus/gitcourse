@@ -1,0 +1,78 @@
+jena@jena-HP-EliteBook-8470p:~$ cd Desktop
+jena@jena-HP-EliteBook-8470p:~/Desktop$ mkdir Gitcourse
+jena@jena-HP-EliteBook-8470p:~/Desktop$ cd Gitcourse
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ ^C
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ git init
+Initialized empty Git repository in /home/jena/Desktop/Gitcourse/.git/
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ ^C
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ touch ucode.txt
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ ls
+ucode.txt
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	ucode.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	ucode.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ git add ucode.txt
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   ucode.txt
+
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ 
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ 
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ 
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ 
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ 
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ 
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ git commit -m " I have added ucode.txt file"
+[master (root-commit) 143d347]  I have added ucode.txt file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ucode.txt
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ ^C
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ git remote add https://github.com/ucodecotz/gitcourse.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ git remote add origin https://github.com/ucodecotz/gitcourse.git
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ ^C
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ git push -u origin master
+Username for 'https://github.com': ucodecotz
+Password for 'https://ucodecotz@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 224 bytes | 224.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ucodecotz/gitcourse.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+jena@jena-HP-EliteBook-8470p:~/Desktop/Gitcourse$ 
